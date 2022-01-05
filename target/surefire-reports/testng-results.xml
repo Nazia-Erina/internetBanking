@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking Application" duration-ms="21183" started-at="2022-01-05T11:18:44Z" finished-at="2022-01-05T11:19:06Z">
+    <groups>
+    </groups>
+    <test name="NetBanking Application" duration-ms="21183" started-at="2022-01-05T11:18:44Z" finished-at="2022-01-05T11:19:06Z">
+      <class name="com.bank.testCases.TC002_LoginDataDriven">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.bank.testCases.TC002_LoginDataDriven@180bc464]" name="setUp" is-config="true" duration-ms="9620" started-at="2022-01-05T11:18:45Z" finished-at="2022-01-05T11:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.bank.testCases.TC002_LoginDataDriven@180bc464]" name="loginDDT" duration-ms="10335" started-at="2022-01-05T11:18:55Z" data-provider="LoginData" finished-at="2022-01-05T11:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr377869]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ypamAgA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testCases.TC002_LoginDataDriven@180bc464]" name="tearDown" is-config="true" duration-ms="612" started-at="2022-01-05T11:19:05Z" finished-at="2022-01-05T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testCases.TC002_LoginDataDriven -->
+    </test> <!-- NetBanking Application -->
+  </suite> <!-- Banking Application -->
+</testng-results>
